@@ -1,0 +1,7 @@
+<h1>This is the page for a new element</h1>
+
+ <%= simple_form_for(@bookmarks) do |f| %>
+  <%= f.input :name %>
+  <%= f.association :bookmarks %>
+  <%= f.button :submit %>
+<% end %>
